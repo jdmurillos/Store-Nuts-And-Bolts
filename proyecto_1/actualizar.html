@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Actualizar Cliente</title>
+</head>
+<body>
+    <div class="container">
+    <h2>Actualizar Cliente</h2>
+    <form action="actualizar.php" method="post">
+        <label for="id_cliente">ID Cliente:</label>
+        <input type="number" name="id_cliente" required><br><br>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre"><br><br>
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido"><br><br>
+        
+        <label for="correo">Correo:</label>
+        <input type="email" name="correo"><br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="text" name="telefono"><br><br>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" name="direccion"><br><br>
+
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" name="ciudad"><br><br>
+
+        <input type="submit" value="Actualizar">
+    </form>
+    </div>
+</body>
+</html>

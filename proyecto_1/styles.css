@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7d7a5;
+    margin: 1;
+    padding: 20px;
+}
+
+.formulario-cotizacion {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+    
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilos para el registro de usuario */
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #bb8cd3;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/*pagina index */
+
+/* Encabezado */
+header {
+    background-color: #48250c;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 1%;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sección Hero */
+.hero {
+
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0;
+    color: #48250c;
+}
+
+.hero p{
+    color: #48250c;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #48250c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sección Productos */
+.productos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.producto {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+/* Sección Servicios y Contacto */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Pie de página */
+footer {
+    background-color: #48250c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.frase {
+    text-align: center; /* Centrar texto */
+    margin: 50px 0; /* Margen superior e inferior */
+}
+.frase h2 {
+    color: #48250c; /* Color café */
+    font-size: 40px; /* Tamaño de letra para el h1 */
+    margin: 0; /* Sin margen */
+    font-weight: normal; /* Peso de fuente normal */
+}
+h3 {
+    color: #48250c; /* Color café */
+    font-size: 18px; /* Tamaño de letra para el h3 */
+    margin-bottom: 10px; /* Margen inferior */
+    font-weight: normal; /* Peso de fuente normal */
+}
+
+.info_empresa {
+    display: flex; /* Utilizar Flexbox para la disposición en columnas */
+    justify-content: space-between; /* Espacio entre columnas */
+    align-items: flex-start; /* Alinear elementos al inicio */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+.text-column {
+    flex: 1; /* Columna de texto toma el 50% del ancho */
+    margin-right: 20px; /* Margen derecho */
+    text-align: left; /* Justificar el texto a la izquierda */
+    color: #48250c; /* Color café */
+    
+}
+
+.text-column h2{
+    text-align: left; /* Justificar el texto a la izquierda */
+    color: #48250c; /* Color café */
+}
+
+.image-column {
+    flex: 1; /* Columna de imagen toma el 50% del ancho */
+}
+.image-column img {
+    max-width: 90%; /* Asegurar que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+}
